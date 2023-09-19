@@ -1,0 +1,13 @@
+### Get all todos
+GET http://localhost:3001/todos
+Accept: application/json
+
+### Create a new todo
+POST http://localhost:3001/todos
+Content-Type: application/json
+
+{
+  "todo": {
+    "title": "Sample Todo"
+  }
+}
